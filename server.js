@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var server = app.listen("https://mic-io.vercel.app/");
+var server = app.listen(3000);
 var compression = require('compression');
 var helmet = require('helmet');
 
